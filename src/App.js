@@ -16,6 +16,7 @@ function transformBarData(data) {
       data_covid.push({'country':value.country,'values':result.slice(-1)[0]})
     }
  })
+ console.log(data_covid)
  return {
   data_covid
   }
